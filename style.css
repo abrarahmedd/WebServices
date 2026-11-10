@@ -1,0 +1,157 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+header {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background-image: linear-gradient(to right, rgb(252, 163, 17), rgba(229, 229, 229, 1));
+    color: white;
+    padding: 7px;
+    border-radius: 2px;
+    width: 100%;
+    height: 65px;
+
+}
+
+
+nav {
+    order: 1;
+}
+
+.nav__links li {
+    display: inline-block;
+    padding: 0px 10px;
+}
+
+.nav__links li a {
+    transition: all 0.4s ease 0s;
+}
+
+.nav__links li a>h2:hover {
+    color: #0e966f;
+}
+
+.nav__links li a:visited {
+    color: #9457bf;
+}
+
+.wl {
+    background-image: url(images/download.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: 100%;
+    height: 800px;
+    text-align: center;
+    padding-top: 300px;
+}
+
+h1 {
+    color: #ffffff;
+    height: 500px;
+    padding-top: 300px;
+    font-size: 60px;
+}
+
+.wrapper {
+    width: 400px;
+    height: 500px;
+    background: transparent;
+    border-radius: 20px;
+    backdrop-filter: blur(2px);
+    box-shadow: 0px 0px 10px #000;
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    margin-left: 55px;
+    margin-bottom: 140px;
+    font-size: 21px;
+
+}
+
+.wrapper {
+    background: rgb(252, 163, 17);
+}
+
+div1 {
+    transition: width 2s, height 2s, transform 2s;
+    margin: 40px 40px;
+}
+
+div1:hover {
+    width: 400px;
+    height: 400px
+}
+
+div2 {
+    transition: width 2s, height 2s, transform 2s;
+    margin: 40px 40px;
+}
+
+div2:hover {
+    width: 400px;
+    height: 400px
+}
+
+div3 {
+    transition: width 2s, height 2s, transform 2s;
+    margin: 40px 40px;
+}
+
+div3:hover {
+    width: 400px;
+    height: 400px;
+}
+
+.input-box {
+    width: 350px;
+    height: 40px;
+    background: transparent;
+    border-radius: 15px;
+    padding: 10px;
+    margin: 20px;
+    font-size: 21px;
+
+}
+
+button {
+    padding: 9px 25px;
+    background-color: burlywood;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+button:hover {
+    background-color: rgb(14, 150, 111);
+}
+
+nav ul {
+    overflow: hidden;
+    list-style: none;
+    display: inline-flex;
+}
+
+a,
+button {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    color: #000000;
+    text-decoration: none;
+
+}
+
+button {
+    background-color: #FED93E;
+    width: 150px;
+    margin: 0px 0px 50px 0px;
+    font-size: 20px;
+    height: 60px;
+}
